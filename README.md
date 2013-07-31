@@ -20,6 +20,22 @@ samplesize/test=300/ref=250/step1-ch22-exome
 
 6) To restart failed jobs, run the script with dry_run=0 (item 2). It starts any jobs it thinks it needs to start, picks up where it left off.
 
+Data requirements
+---------------------------------
+Array markers - all are provided in gzipped format
+    - affy6_markers.txt
+    - illumina3_markers.txt
+    - omni2_5_markers.txt
+    - exome_chip/annotatedList.txt
+
+1000 Genomes chromosome 22
+    - phase 1 integrated call set can be downloaded from this ftp site:
+      ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20110521/
+    - Need the following files:
+        ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz
+        ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz.tbi
+        ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz.vcfidx
+
 Script descriptions
 ---------------------------------
 

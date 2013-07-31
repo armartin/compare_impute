@@ -23,15 +23,15 @@ samplesize/test=300/ref=250/step1-ch22-exome
 Data requirements
 ---------------------------------
 Array markers - all are provided in gzipped format
-    - affy6_markers.txt
-    - illumina3_markers.txt
-    - omni2_5_markers.txt
-    - exome_chip/annotatedList.txt
+    * affy6_markers.txt
+    * illumina3_markers.txt
+    * omni2_5_markers.txt
+    * exome_chip/annotatedList.txt
 
 1000 Genomes chromosome 22
-    - phase 1 integrated call set can be downloaded from this ftp site:
+    * phase 1 integrated call set can be downloaded from this ftp site:
       ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20110521/
-    - Need the following files:
+    * Need the following files:
         ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz
         ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz.tbi
         ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz.vcfidx
@@ -96,8 +96,8 @@ pair in IMPUTE format. Written by Bryan Howie.
 
 Paths to change
 ---------------------------------
-analysis.py - SAMPLED_DATA_BASE
-phase_impute_pipeline.py - can alter all defaults set
-generate_vcfs.py - can alter all defaults set
-    in gzinput method, alter return path
-generate_impute_results.py - can alter all defaults set
+*analysis.py - SAMPLED_DATA_BASE
+*phase_impute_pipeline.py - can alter all defaults set
+*generate_vcfs.py - can alter all defaults set
+    *in gzinput method, alter return path
+*generate_impute_results.py - can alter all defaults set
